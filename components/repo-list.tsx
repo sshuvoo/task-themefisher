@@ -6,9 +6,9 @@ import { useState } from 'react'
 
 export function RepoList({ repoContents }: { repoContents: RepoRes[] }) {
   return (
-    <div className="max-w-3xl mx-auto mt-2">
+    <div className="max-w-4xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 mt-2">
       <div>
-        <h1 className="uppercase text-[#eee7e7] font-semibold text-2xl">
+        <h1 className="uppercase text-[#eee7e7] font-semibold text-xl md:text-2xl">
           Repositories
         </h1>
       </div>

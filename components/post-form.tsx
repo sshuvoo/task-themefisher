@@ -126,9 +126,9 @@ export function PostForm() {
   }
 
   return (
-    <div className="max-w-3xl mx-auto py-4 md:py-10">
+    <div className="max-w-4xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 py-4 md:py-10">
       <div>
-        <h1 className="uppercase text-[#eee7e7] font-semibold text-2xl">
+        <h1 className="uppercase text-[#eee7e7] font-semibold text-xl md:text-2xl">
           {updateId ? 'Update Post' : 'Add new post'}
         </h1>
       </div>
@@ -343,7 +343,7 @@ export function PostForm() {
       </div>
       {drafts.length > 0 && (
         <div className="mt-8">
-          <h1 className="uppercase text-[#eee7e7] font-semibold text-2xl">
+          <h1 className="uppercase text-[#eee7e7] font-semibold text-xl md:text-2xl">
             All drafts
           </h1>
           <div className="text-[#eee7e7] space-y-4 mt-4">

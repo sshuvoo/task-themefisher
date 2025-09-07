@@ -69,15 +69,26 @@ All environment variables are used server-side.
 
 ## Run locally
 
-1. Install dependencies:
+1. Clone the repo and navigate to the project directory:
 
 ```bash
+git clone git@github.com:sshuvoo/task-themefisher.git
+cd task-themefisher
+```
+
+2. Install dependencies:
+
+```bash 
 npm install
 ```
 
-2. Add `.env` with the variables above.
+3. Add `.env` with the variables above.
 
-3. Start dev server:
+```bash
+touch .env
+```
+
+4. Start dev server:
 
 ```bash
 npm run dev
@@ -87,5 +98,5 @@ npm run dev
 
 ## Recommended usage guidelines
 
-- The title's first three words are used to generate the filename (spaces replaced with hyphens). Avoid duplicate titles to prevent overwriting files. for example, "My First Post" becomes `MY_FIRST_POST.md`.
+- The title's first three words are used to generate the filename (spaces replaced with underscores). Avoid duplicate titles to prevent overwriting files. for example, "My First Post" becomes `MY_FIRST_POST.md`.
 - Try to avoid using special characters to avoid issues with filenames.
